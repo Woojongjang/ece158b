@@ -12,13 +12,17 @@
 		352FDCDC1D040B62004AF677 /* rideTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352FDCD81D040B62004AF677 /* rideTimeViewController.swift */; };
 		352FDCE31D040BF5004AF677 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352FDCE21D040BF5004AF677 /* LocationViewController.swift */; };
 		3565C4151D06280B00447886 /* ridePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3565C4141D06280B00447886 /* ridePostViewController.swift */; };
+		35C03FE61D0753FF00ECC8BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C03FE41D0753FF00ECC8BC /* Main.storyboard */; };
+		35C03FE81D07543500ECC8BC /* rideTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FE71D07543500ECC8BC /* rideTime.swift */; };
+		35C03FEA1D07543F00ECC8BC /* timeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FE91D07543F00ECC8BC /* timeData.swift */; };
+		35C03FEC1D07552A00ECC8BC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FEB1D07552A00ECC8BC /* Post.swift */; };
+		35C03FEE1D075CDC00ECC8BC /* postCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C03FED1D075CDC00ECC8BC /* postCell.swift */; };
 		65049BAF1D063277005EAB45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65049BAE1D063277005EAB45 /* GoogleService-Info.plist */; };
 		65369A911D065F7C008CEDF4 /* PostInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65369A901D065F7C008CEDF4 /* PostInformation.swift */; };
 		653E69681D04C32A00007AA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E69671D04C32A00007AA9 /* LoginViewController.swift */; };
 		653E696A1D04C6C400007AA9 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E69691D04C6C400007AA9 /* CurrentUser.swift */; };
 		657E026F1D04A72500376D8F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657E026E1D04A72500376D8F /* SignUpViewController.swift */; };
 		65D193691D04001D0071E3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D193681D04001D0071E3A9 /* AppDelegate.swift */; };
-		65D1936E1D04001D0071E3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D1936C1D04001D0071E3A9 /* Main.storyboard */; };
 		65D193711D04001D0071E3A9 /* TritonRide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D1936F1D04001D0071E3A9 /* TritonRide.xcdatamodeld */; };
 		65D193731D04001D0071E3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D193721D04001D0071E3A9 /* Assets.xcassets */; };
 		65D193801D0403900071E3A9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D1937F1D0403900071E3A9 /* MapKit.framework */; };
@@ -32,6 +36,11 @@
 		352FDCE01D040BCC004AF677 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		352FDCE21D040BF5004AF677 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		3565C4141D06280B00447886 /* ridePostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ridePostViewController.swift; sourceTree = "<group>"; };
+		35C03FE51D0753FF00ECC8BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35C03FE71D07543500ECC8BC /* rideTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rideTime.swift; sourceTree = "<group>"; };
+		35C03FE91D07543F00ECC8BC /* timeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timeData.swift; sourceTree = "<group>"; };
+		35C03FEB1D07552A00ECC8BC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		35C03FED1D075CDC00ECC8BC /* postCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postCell.swift; sourceTree = "<group>"; };
 		4E94D2B842440A3F4B254704 /* Pods-TritonRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TritonRide.release.xcconfig"; path = "Pods/Target Support Files/Pods-TritonRide/Pods-TritonRide.release.xcconfig"; sourceTree = "<group>"; };
 		65049BAE1D063277005EAB45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65369A901D065F7C008CEDF4 /* PostInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostInformation.swift; sourceTree = "<group>"; };
@@ -40,7 +49,6 @@
 		657E026E1D04A72500376D8F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		65D193651D04001D0071E3A9 /* TritonRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TritonRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D193681D04001D0071E3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65D1936D1D04001D0071E3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65D193701D04001D0071E3A9 /* TritonRide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TritonRide.xcdatamodel; sourceTree = "<group>"; };
 		65D193721D04001D0071E3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65D1937F1D0403900071E3A9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -85,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				352FDCD81D040B62004AF677 /* rideTimeViewController.swift */,
+				35C03FEB1D07552A00ECC8BC /* Post.swift */,
 			);
 			name = Ride;
 			sourceTree = "<group>";
@@ -123,11 +132,14 @@
 				65D193681D04001D0071E3A9 /* AppDelegate.swift */,
 				653E69671D04C32A00007AA9 /* LoginViewController.swift */,
 				657E026E1D04A72500376D8F /* SignUpViewController.swift */,
+				35C03FE91D07543F00ECC8BC /* timeData.swift */,
+				35C03FE71D07543500ECC8BC /* rideTime.swift */,
+				35C03FE41D0753FF00ECC8BC /* Main.storyboard */,
+				35C03FED1D075CDC00ECC8BC /* postCell.swift */,
 				352FDCE21D040BF5004AF677 /* LocationViewController.swift */,
 				65369A941D067D1B008CEDF4 /* object */,
 				65369A931D067CD7008CEDF4 /* Ride */,
 				65369A921D067CAA008CEDF4 /* Driver */,
-				65D1936C1D04001D0071E3A9 /* Main.storyboard */,
 				65D193721D04001D0071E3A9 /* Assets.xcassets */,
 				352FDCE01D040BCC004AF677 /* Info.plist */,
 				65D1936F1D04001D0071E3A9 /* TritonRide.xcdatamodeld */,
@@ -211,8 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C03FE61D0753FF00ECC8BC /* Main.storyboard in Resources */,
 				65D193731D04001D0071E3A9 /* Assets.xcassets in Resources */,
-				65D1936E1D04001D0071E3A9 /* Main.storyboard in Resources */,
 				65049BAF1D063277005EAB45 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,12 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3565C4151D06280B00447886 /* ridePostViewController.swift in Sources */,
+				35C03FEE1D075CDC00ECC8BC /* postCell.swift in Sources */,
 				352FDCDC1D040B62004AF677 /* rideTimeViewController.swift in Sources */,
 				65D193691D04001D0071E3A9 /* AppDelegate.swift in Sources */,
 				657E026F1D04A72500376D8F /* SignUpViewController.swift in Sources */,
+				35C03FEC1D07552A00ECC8BC /* Post.swift in Sources */,
 				352FDCE31D040BF5004AF677 /* LocationViewController.swift in Sources */,
 				65D193711D04001D0071E3A9 /* TritonRide.xcdatamodeld in Sources */,
+				35C03FEA1D07543F00ECC8BC /* timeData.swift in Sources */,
 				65369A911D065F7C008CEDF4 /* PostInformation.swift in Sources */,
+				35C03FE81D07543500ECC8BC /* rideTime.swift in Sources */,
 				653E69681D04C32A00007AA9 /* LoginViewController.swift in Sources */,
 				35249AE31D065689005C439A /* driverConfirmViewController.swift in Sources */,
 				653E696A1D04C6C400007AA9 /* CurrentUser.swift in Sources */,
@@ -288,10 +304,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		65D1936C1D04001D0071E3A9 /* Main.storyboard */ = {
+		35C03FE41D0753FF00ECC8BC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				65D1936D1D04001D0071E3A9 /* Base */,
+				35C03FE51D0753FF00ECC8BC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
